@@ -1,0 +1,17 @@
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Infrastructure.deps.json
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Infrastructure.runtimeconfig.json
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Infrastructure.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Infrastructure.pdb
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Domain.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\bin\Debug\net8.0\BankAppTestBack.Domain.pdb
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.AssemblyInfo.cs
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.csproj.CopyComplete
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\refint\BankAppTestBack.Infrastructure.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.pdb
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.genruntimeconfig.cache
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\ref\BankAppTestBack.Infrastructure.dll

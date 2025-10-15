@@ -1,0 +1,6 @@
+{
+  "BankAppTestBack.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\BankAppTestBack.Application",
+  "BankAppTestBack.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\BankAppTestBack.Domain",
+  "BankAppTestBack.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\BankAppTestBack.Infrastructure",
+  "BankAppTestBack.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\BankAppTestBack"
+}
