@@ -15,3 +15,4 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.pdb
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.genruntimeconfig.cache
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\ref\BankAppTestBack.Infrastructure.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Infrastructure\obj\Debug\net8.0\BankAppTestBack.Infrastructure.sourcelink.json

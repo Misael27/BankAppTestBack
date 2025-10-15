@@ -306,7 +306,6 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -329,7 +328,6 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -354,7 +352,6 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\System.Formats.Asn1.dll
@@ -465,3 +462,7 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug\net8.0\XUnitTestBankAppTestBack.pdb
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug\net8.0\XUnitTestBankAppTestBack.genruntimeconfig.cache
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug\net8.0\ref\XUnitTestBankAppTestBack.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug\net8.0\XUnitTestBankAppTestBack.sourcelink.json

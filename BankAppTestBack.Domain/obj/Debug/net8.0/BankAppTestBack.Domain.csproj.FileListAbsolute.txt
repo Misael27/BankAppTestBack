@@ -20,3 +20,4 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Domain\obj\Debug\n
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Domain\obj\Debug\net8.0\refint\BankAppTestBack.Domain.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Domain\obj\Debug\net8.0\BankAppTestBack.Domain.pdb
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Domain\obj\Debug\net8.0\ref\BankAppTestBack.Domain.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Domain\obj\Debug\net8.0\BankAppTestBack.Domain.sourcelink.json

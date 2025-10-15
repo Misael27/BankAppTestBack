@@ -13,3 +13,4 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Application\obj\De
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Application\obj\Debug\net8.0\refint\BankAppTestBack.Application.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Application\obj\Debug\net8.0\BankAppTestBack.Application.pdb
 C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Application\obj\Debug\net8.0\ref\BankAppTestBack.Application.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\BankAppTestBack.Application\obj\Debug\net8.0\BankAppTestBack.Application.sourcelink.json
