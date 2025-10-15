@@ -1,7 +1,10 @@
+using BankAppTestBack.Application.Mapping;
 using BankAppTestBack.Application.Options;
 using BankAppTestBack.Application.ValidationHandle.Behaviours;
 using BankAppTestBack.Application.ValidationHandle.Filters;
+using BankAppTestBack.Domain.Repositories;
 using BankAppTestBack.Domain.Services;
+using BankAppTestBack.Infrastructure.Repositories;
 using BankAppTestBack.Infrastructure.Services;
 using FluentValidation;
 using Infrastructure.Infrastructure;
@@ -14,7 +17,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 var applicationAssembly = typeof(ValidationBehaviour<,>).Assembly;
 
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 builder.Services.AddValidatorsFromAssembly(applicationAssembly);
+builder.Services.AddAutoMapper(typeof(ApplicationProfile).Assembly);
 
 builder.Services.AddMediatR(cfg =>
 {

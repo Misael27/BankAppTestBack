@@ -6,6 +6,7 @@ using System.Linq;
 using BankAppTestBack.Application.ValidationHandle.Exceptions;
 using BankAppTestBack.Domain.Exceptions;
 using Microsoft.AspNetCore.Http.HttpResults;
+using System;
 
 namespace BankAppTestBack.Application.ValidationHandle.Filters
 {
@@ -24,6 +25,9 @@ namespace BankAppTestBack.Application.ValidationHandle.Filters
                 case DomainException domainException:
                     HandleDomainException(context, domainException);
                     break;
+                case BusinessValidationException businessValidationException:
+                    HandleBusinessValidationException(context, businessValidationException);
+                    break;
                 default:
                     HandleUnknownException(context);
                     break;
@@ -31,6 +35,19 @@ namespace BankAppTestBack.Application.ValidationHandle.Filters
             base.OnException(context);
         }
 
+        private void HandleBusinessValidationException(ExceptionContext context, BusinessValidationException exception)
+        {
+            var details = new ProblemDetails()
+            {
+                Type = "BusinessValidationException",
+                Title = "Business validation exception",
+                Detail = exception.Message
+            };
+
+            context.Result = new BadRequestObjectResult(details);
+
+            context.ExceptionHandled = true;
+        }
 
         private void HandleValidationException(ExceptionContext context, ValidationException exception)
         {

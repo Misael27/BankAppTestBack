@@ -467,3 +467,5 @@ C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\obj\Debug\net8.0\XUnitTestBankAppTestBack.sourcelink.json
 C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\BCrypt.Net-Core.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\mjpol\projects\devsu\BankAppTestBack\XUnitTestBankAppTestBack\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

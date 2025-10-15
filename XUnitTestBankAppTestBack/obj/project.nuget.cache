@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CVy8XIG/xgDNkhH9bcRGfobYdWucUnm07u2diR9Cc2E9G+28KGYyuZWLKean1IyRcDDbpFHyjmP6wLm6l2XkQg==",
+  "dgSpecHash": "rew6aOjNRLL/u2mHmCNfeJIPwsxRkd+WCknA42KEGdJkZ2/RmjYH6vCMw+LUzzIGRbE0Etk53EoU4jj6OwgbQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\XUnitTestBankAppTestBack\\XUnitTestBankAppTestBack.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mjpol\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
+    "C:\\Users\\mjpol\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
@@ -113,5 +115,16 @@
     "C:\\Users\\mjpol\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.5\\xunit.runner.visualstudio.3.1.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 15.0.1 was resolved.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
