@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Http;
 using System.Net;
 using System.Linq;
 using BankAppTestBack.Application.ValidationHandle.Exceptions;
+using BankAppTestBack.Domain.Exceptions;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace BankAppTestBack.Application.ValidationHandle.Filters
 {
@@ -18,6 +20,9 @@ namespace BankAppTestBack.Application.ValidationHandle.Filters
                     break;
                 case NotFoundException notFoundEx:
                     HandleNotFoundException(context, notFoundEx);
+                    break;
+                case DomainException domainException:
+                    HandleDomainException(context, domainException);
                     break;
                 default:
                     HandleUnknownException(context);
@@ -60,6 +65,20 @@ namespace BankAppTestBack.Application.ValidationHandle.Filters
             };
 
             context.Result = new NotFoundObjectResult(details);
+
+            context.ExceptionHandled = true;
+        }
+
+        private void HandleDomainException(ExceptionContext context, DomainException exception)
+        {
+            var details = new ProblemDetails()
+            {
+                Type = "DomainException",
+                Title = "Invalid state",
+                Detail = exception.Message
+            };
+
+            context.Result = new BadRequestObjectResult(details);
 
             context.ExceptionHandled = true;
         }

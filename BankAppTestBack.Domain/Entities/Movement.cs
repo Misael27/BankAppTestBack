@@ -19,15 +19,38 @@ namespace BankAppTestBack.Domain.Entities
 
         private Movement() { }
 
+        public bool IsValid()
+        {
+            if (Value <= 0)
+            {
+                return false;
+            }
+            if (AccountId <= 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
         public void AddBalance(double accountBalance)
         {
             Balance = Type switch
             {
                 EMovementType.Retiro => accountBalance - Value,
                 EMovementType.Deposito => accountBalance + Value,
-                _ => throw new InvalidOperationException("Tipo de movimiento inesperado.")
+                _ => throw new InvalidOperationException($"Unexpected value: {Type}")
             };
-            Date = DateTime.Now;
+            Date = DateTime.UtcNow;
+        }
+
+        public bool IsBalanceValid()
+        {
+            return Balance >= 0;
+        }
+
+        public bool CanDebitToday(double todayDebitTotal, double maxLimit)
+        {
+            return Value + todayDebitTotal <= maxLimit;
         }
 
     }

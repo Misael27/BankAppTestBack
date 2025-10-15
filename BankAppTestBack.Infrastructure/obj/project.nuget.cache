@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VYtLceSx1LypVdr7Bym3Gfsm014AO8F6uo77o97KY/wBqHwebXmeCuOZiSRhUcrbmzsECHf0XAfcMxGF1XK6ig==",
+  "dgSpecHash": "+cMF5LEu6IIut9DTH4sCdm3Eqm6bSiPXk+TrYMb8fJ/3wXAfa77Mc6Fv7+um1nBtEHhaMYqVY0OldDJu51tVcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mjpol\\projects\\devsu\\BankAppTestBack\\BankAppTestBack.Infrastructure\\BankAppTestBack.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mjpol\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\mjpol\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mjpol\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.21\\microsoft.aspnetcore.cryptography.internal.8.0.21.nupkg.sha512",

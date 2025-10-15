@@ -1,10 +1,14 @@
+using BankAppTestBack.Application.Options;
 using BankAppTestBack.Application.ValidationHandle.Behaviours;
 using BankAppTestBack.Application.ValidationHandle.Filters;
+using BankAppTestBack.Domain.Services;
+using BankAppTestBack.Infrastructure.Services;
 using FluentValidation;
 using Infrastructure.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Proxies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +27,9 @@ builder.Services.AddControllers(options =>
     options.Filters.Add<ApiExceptionFilterAttribute>();
 });
 
+builder.Services.AddScoped<IPasswordHasher, BCryptHasher>();
+
+
 builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true
 );
@@ -38,9 +45,11 @@ builder.Services.AddDbContext<DataContext>(opt =>
     opt.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.Configure<LimitOptions>(
+    builder.Configuration.GetSection(LimitOptions.Limit));
+
 
 var app = builder.Build();
 
