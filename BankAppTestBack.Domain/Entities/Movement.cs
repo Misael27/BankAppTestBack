@@ -17,8 +17,6 @@ namespace BankAppTestBack.Domain.Entities
 
         public virtual Account Account { get; set; }
 
-        private Movement() { }
-
         public bool IsValid()
         {
             if (Value <= 0)

@@ -1,12 +1,5 @@
 ﻿using BankAppTestBack.Domain.Common;
 using BankAppTestBack.Domain.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Principal;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace BankAppTestBack.Domain.Entities
 {
     public class Client : Person, ICommonDomain
@@ -16,8 +9,6 @@ namespace BankAppTestBack.Domain.Entities
         public bool State { get; set; }
 
         public virtual ICollection<Account> Accounts { get; set; } = new List<Account>();
-
-        private Client() { }
 
         public Client(string name, EGender gender, DateTime birthdate, string personId,
                       string address, string phone, string password, bool state)
@@ -63,6 +54,7 @@ namespace BankAppTestBack.Domain.Entities
         string? personId,
         string? address,
         string? phone,
+        bool? state,
         string? hashedPassword = null
     )
         {
@@ -76,8 +68,8 @@ namespace BankAppTestBack.Domain.Entities
             {
                 Password = hashedPassword;
             }
-
-            if (!IsValid()) throw new DomainException("The update leaves the client in an invalid state");
+            State = state.HasValue ? state.Value : State;
+            if (!IsValid()) throw new DomainException("INVALID_REQUEST");
         }
     }
 }

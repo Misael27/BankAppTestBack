@@ -40,14 +40,12 @@ namespace BankAppTestBack.Infrastructure.Repositories
             return await _context.Clients.FindAsync(new object[] { id }, cancellationToken);
         }
 
-        // Equivalente a tu findAll
         public async Task<List<Client>> FindAllAsync(CancellationToken cancellationToken = default)
         {
             return await _context.Clients
                 .ToListAsync(cancellationToken);
         }
 
-        // Equivalente a tu delete (springDataClientRepository.deleteById(client.getId()))
         public void Remove(Client client)
         {
             _context.Clients.Remove(client);

@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Http;
 using System.Net;
 using System.Linq;
-using BankAppTestBack.Application.ValidationHandle.Exceptions;
 using BankAppTestBack.Domain.Exceptions;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System;
+using BankAppTestBack.Application.Common.ValidationHandle.Exceptions;
 
 namespace BankAppTestBack.Application.ValidationHandle.Filters
 {

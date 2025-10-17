@@ -20,8 +20,6 @@ namespace BankAppTestBack.Domain.Entities
         public virtual Client Client { get; set; }
         public virtual ICollection<Movement> Movements { get; set; } = new List<Movement>();
 
-        private Account() { }
-
         public bool IsValid()
         {
             if (string.IsNullOrWhiteSpace(Number))
@@ -42,21 +40,23 @@ namespace BankAppTestBack.Domain.Entities
             return true;
         }
 
-    public void Update(
-        string? number = null,
-        EAccountType? type = null,
-        double? initBalance = null,
-        bool? state = null
-    )
+        public void Update(
+            string? number = null,
+            EAccountType? type = null,
+            double? initBalance = null,
+            bool? state = null,
+            long? clientId = null
+        )
         {
             Number = !string.IsNullOrWhiteSpace(number) ? number : Number;
             Type = type.HasValue ? type.Value : Type;
             InitBalance = initBalance.HasValue ? initBalance.Value : InitBalance;
             State = state.HasValue ? state.Value : State;
+            ClientId = clientId.HasValue ? clientId.Value : ClientId;
 
-             if (!IsValid()) throw new DomainException("The update leaves the account in an invalid state");
+            if (!IsValid())
+                throw new DomainException("The update leaves the account in an invalid state");
         }
-
     }
     public enum EAccountType { Ahorros, Corriente }
 

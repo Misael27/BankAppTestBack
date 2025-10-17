@@ -58,6 +58,7 @@ namespace Infrastructure.Infrastructure
 
                 entity.HasOne(m => m.Account)
                     .WithMany(a => a.Movements)
+                    .OnDelete(DeleteBehavior.Cascade)
                     .HasForeignKey(m => m.AccountId);
             });
         }
