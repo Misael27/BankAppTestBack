@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.21" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="8.0.21" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
       <PrivateAssets>all</PrivateAssets>
@@ -21,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BankAppTestBack.Infrastructure\BankAppTestBack.Infrastructure.csproj" />
     <ProjectReference Include="..\BankAppTestBack\BankAppTestBack.Web.csproj" />
   </ItemGroup>
 

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>false</InvariantGlobalization>
@@ -34,6 +35,10 @@
     <ProjectReference Include="..\BankAppTestBack.Infrastructure\BankAppTestBack.Infrastructure.csproj" />
   </ItemGroup>
 
-
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>XUnitTestBankAppTestBack</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
 
 </Project>
