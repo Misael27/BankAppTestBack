@@ -38,18 +38,6 @@ Para que el archivo `docker-compose.yml` (ubicado en este repositorio: `BankAppT
 
 1. Crea una carpeta de trabajo (ej: `ProyectoBancario`).
 2. Clonar ambos repositorios dentro de esa carpeta.
-
-**Estructura Final Requerida:**
-
-
-/ProyectoBancario
-├── /BankAppTestBack  <-- (Este repositorio. Contiene docker-compose.yml)
-│   ├── docker-compose.yml
-│   └── ... (Archivos del backend)
-└── /BankAppTestFront <-- (Repositorio del Frontend)
-    └── ... (Archivos del frontend)
-	
-
 ---
 
 ## 3. Puesta en Marcha de la Aplicación
@@ -69,3 +57,4 @@ Una vez que Docker Compose termine de inicializar todos los servicios:
 | Aplicación Frontend   | [http://localhost:3000](http://localhost:3000)      | 3000:80        | La página de inicio                                    |
 
 | API Backend (Swagger) | [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html) | 8080:8080      | Documentación para probar los endpoints de la API     |
+
