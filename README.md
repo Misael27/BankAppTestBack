@@ -3,6 +3,7 @@
 Bank app test application
 
 Postman: https://lively-shuttle-827504.postman.co/workspace/Tracking~8b8479cf-b785-422d-80d1-e085cc19ec9e/collection/349031-5fee2b71-7c3e-4d33-8ac6-b4d8dd6e9548?action=share&creator=349031
+
 Postman json file: bank-app-test-back.postman_collection.json (ubicado en la raiz de este proyecto)
 
 ## Features
@@ -16,13 +17,13 @@ Postman json file: bank-app-test-back.postman_collection.json (ubicado en la rai
 
 ## Instructions
 
-Este documento detalla los pasos para levantar la aplicación completa (Frontend, Backend y Base de Datos) utilizando Docker Compose. La configuración está diseñada para funcionar con el código fuente distribuido en dos repositorios separados.
+Este documento detalla los pasos para levantar la aplicación completa (Frontend, Backend y Base de Datos) utilizando Docker Compose
 
 ---
 
 ## 1. Requisitos Previos
 
-Asegúrate de tener instalados los siguientes componentes:
+Se debe tener instalados los siguientes componentes:
 
 - Git  
 - Docker Desktop (o Docker Engine)
@@ -66,4 +67,5 @@ Una vez que Docker Compose termine de inicializar todos los servicios:
 | Servicio              | URL de Acceso Local                                 | Puerto Mapeado | Notas                                                  |
 |-----------------------|-----------------------------------------------------|----------------|--------------------------------------------------------|
 | Aplicación Frontend   | [http://localhost:3000](http://localhost:3000)      | 3000:80        | La página de inicio                                    |
+
 | API Backend (Swagger) | [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html) | 8080:8080      | Documentación para probar los endpoints de la API     |
