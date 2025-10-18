@@ -8,6 +8,7 @@ namespace BankAppTestBack.Application.Dtos
         EMovementType Type,
         double Value,
         double Balance,
-        long AccountId
+        long AccountId,
+        string accountNumber
     );
 }

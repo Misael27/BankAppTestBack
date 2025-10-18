@@ -13,7 +13,11 @@ namespace BankAppTestBack.Application.Common.Mapping
                 dest => dest.clientName,
                 opt => opt.MapFrom(src => src.Client.Name)
             );
-            CreateMap<Domain.Entities.Movement, MovementResponse>();
+            CreateMap<Domain.Entities.Movement, MovementResponse>()
+            .ForMember(
+                dest => dest.accountNumber,
+                opt => opt.MapFrom(src => src.Account.Number)
+            );
         }
 
     }
