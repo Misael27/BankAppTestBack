@@ -46,7 +46,8 @@ El proceso de inicio debe ejecutarse desde la carpeta que contiene el archivo `d
 
 ```bash
 cd /path/a/ProyectoBancario/BankAppTestBack
-docker compose up --build -d```
+docker compose up --build -d
+```
 
 ## 4. Acceso y Verificación de Servicios
 
@@ -55,6 +56,6 @@ Una vez que Docker Compose termine de inicializar todos los servicios:
 | Servicio              | URL de Acceso Local                                 | Puerto Mapeado | Notas                                                  |
 |-----------------------|-----------------------------------------------------|----------------|--------------------------------------------------------|
 | Aplicación Frontend   | [http://localhost:3000](http://localhost:3000)      | 3000:80        | La página de inicio                                    |
-
 | API Backend (Swagger) | [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html) | 8080:8080      | Documentación para probar los endpoints de la API     |
+
 
