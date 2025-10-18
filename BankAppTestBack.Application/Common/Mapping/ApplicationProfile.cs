@@ -8,7 +8,11 @@ namespace BankAppTestBack.Application.Common.Mapping
         public ApplicationProfile()
         {
             CreateMap<Domain.Entities.Client, ClientResponse>();
-            CreateMap<Domain.Entities.Account, AccountResponse>();
+            CreateMap<Domain.Entities.Account, AccountResponse>()
+            .ForMember(
+                dest => dest.clientName,
+                opt => opt.MapFrom(src => src.Client.Name)
+            );
             CreateMap<Domain.Entities.Movement, MovementResponse>();
         }
 

@@ -8,6 +8,7 @@ namespace BankAppTestBack.Application.Dtos
         EAccountType Type,
         double InitBalance,
         bool State,
-        long ClientId
+        long ClientId,
+        string clientName
     );
 }
