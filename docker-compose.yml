@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: bank_sqlserver
+    environment:
+      SA_PASSWORD: "Pass123!A"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bank_api
+    ports:
+      - "8080:8080"  
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__Default: "Server=sqlserver;Database=BankDB;User Id=sa;Password=Pass123!A;TrustServerCertificate=True"
+    depends_on:
+      sqlserver:
+        condition: service_started
+    restart: always
+
+  frontend:
+    build:
+      context: ../BankAppTestFront
+      dockerfile: Dockerfile
+    container_name: bank_frontend
+    ports:
+      - "3000:80" 
+    depends_on:
+      - api
+    restart: always
+
+volumes:
+  sqlserver_data:
